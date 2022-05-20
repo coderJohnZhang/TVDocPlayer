@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TVDocPlayer</string>
+    <string name="usb_remove">U盘被移除</string>
+    <string name="select_file_type_play">选择文件类型播放</string>
+    <string name="please_select_ppt_file">请选择PPT文件</string>
+    <string name="please_grant_storage_permission">请赋予存储权限，否则应用将无法使用！</string>
+    <string name="please_select_pdf_file">请选择PDF文件</string>
+    <string name="no_ppt_files">没有PPT文件</string>
+    <string name="no_pdf_files">没有PDF文件</string>
+    <string name="please_insert_usb">请插入U盘</string>
+    <string name="select_usb">请选择USB</string>
+</resources>

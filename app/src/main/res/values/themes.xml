@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.TVDocPlayer" parent="@style/Theme.AppCompat.Light" />
+</resources>
