@@ -58,7 +58,6 @@ public class Graphics2D extends Graphics {
 	}
 
 	/**
-	 * TODO: This shouldn't accept BasicStroke, rather a generic Stroke
 	 * The issue here has to do with actually stroking the Shape, which
 	 * is delegated to a rendering pipe.  See
 	 * {@link and.awt.BasicStroke#createStrokedShape}

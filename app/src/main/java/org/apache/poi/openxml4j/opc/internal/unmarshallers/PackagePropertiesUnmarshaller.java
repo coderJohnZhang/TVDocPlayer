@@ -93,8 +93,6 @@ public final class PackagePropertiesUnmarshaller implements PartUnmarshaller {
 
 	protected static final String KEYWORD_VERSION = "version";
 
-	// TODO Load element with XMLBeans or dynamic table
-	// TODO Check every element/namespace for compliance
 	public PackagePart unmarshall(UnmarshallContext context, InputStream in)
 			throws InvalidFormatException, IOException {
 		PackagePropertiesPart coreProps = new PackagePropertiesPart(context

@@ -103,7 +103,6 @@ public class XMLSlideShow  extends POIXMLDocument {
         }
     }
 
-    // TODO get rid of this method
     @Deprecated
     public XSLFSlideShow _getXSLFSlideShow() throws OpenXML4JException, IOException, XmlException{
         return new XSLFSlideShow(getPackage());

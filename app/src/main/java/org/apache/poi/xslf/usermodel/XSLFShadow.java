@@ -114,7 +114,6 @@ public class XSLFShadow extends XSLFSimpleShape {
     /**
      * 
      * @return the blur radius of the shadow
-     * TODO: figure out how to make sense of this property when rendering shadows 
      */
     public double getBlur(){
         CTOuterShadowEffect ct = (CTOuterShadowEffect)getXmlObject();

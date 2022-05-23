@@ -27,7 +27,6 @@ import java.util.List;
 
 /**
  * Utilities to read hex from files.
- * TODO - move to test packages
  *
  * @author Marc Johnson
  * @author Glen Stampoultzis (glens at apache.org)

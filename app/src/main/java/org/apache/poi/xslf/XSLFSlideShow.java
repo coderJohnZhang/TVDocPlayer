@@ -88,7 +88,7 @@ public class XSLFSlideShow extends POIXMLDocument {
 	                corePart.getRelationship(ctSlide.getId2()));
 
 	          for(PackageRelationship rel : slidePart.getRelationshipsByType(OLE_OBJECT_REL_TYPE))
-	              embedds.add(slidePart.getRelatedPart(rel)); // TODO: Add this reference to each slide as well
+	              embedds.add(slidePart.getRelatedPart(rel));
 
 	          for(PackageRelationship rel : slidePart.getRelationshipsByType(PACK_OBJECT_REL_TYPE))
                   embedds.add(slidePart.getRelatedPart(rel));

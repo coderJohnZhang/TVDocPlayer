@@ -7,7 +7,6 @@ public class Font {
 	int size;
 	
 	public Font(String name, int style, int i) {
-		// TODO - convert Font style to Typeface style
 		typeFace = Typeface.create(name, style);
 		size = i;
 	}
@@ -26,7 +25,6 @@ public class Font {
 	}
 
 	public int getStyle() {
-		// TODO - convert Typeface style to Font style
 		return typeFace.getStyle();
 	}
 

@@ -240,7 +240,6 @@ public class XSLFTableCell extends XSLFTextShape {
 
         CTSolidColorFillProperties fill = ln.getSolidFill();
         if(!fill.isSetSrgbClr()) {
-            // TODO for now return null for all colors except explicit RGB
             return null;
         }
         byte[] val = fill.getSrgbClr().getVal();
@@ -279,7 +278,6 @@ public class XSLFTableCell extends XSLFTextShape {
 
         CTSolidColorFillProperties fill = spPr.getSolidFill();
         if(!fill.isSetSrgbClr()) {
-            // TODO for now return null for all colors except explicit RGB
             return null;
         }
         byte[] val = fill.getSrgbClr().getVal();

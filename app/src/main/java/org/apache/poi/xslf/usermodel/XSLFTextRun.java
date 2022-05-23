@@ -68,7 +68,6 @@ public class XSLFTextRun {
         for(int i = 0; i < txt.length(); i++) {
             char c = txt.charAt(i);
             if(c == '\t') {
-                // TODO: finish support for tabs
                 buf.append("  ");
             } else {
                 switch (cap){

@@ -62,8 +62,6 @@ public final class XSLFNotes extends XSLFSheet {
         CTNotesSlide ctNotes = CTNotesSlide.Factory.newInstance();
         CTCommonSlideData cSld = ctNotes.addNewCSld();
 
-        // TODO What else is needed for a mininum notes?
-
         return ctNotes;
     }
 

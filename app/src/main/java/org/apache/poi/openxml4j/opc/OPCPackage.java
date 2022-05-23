@@ -157,7 +157,6 @@ public abstract class OPCPackage implements RelationshipSource, Closeable {
 
 			// Add default marshaller
 			this.defaultPartMarshaller = new DefaultMarshaller();
-			// TODO Delocalize specialized marshallers
 			this.partMarshallers.put(new ContentType(
 					ContentTypes.CORE_PROPERTIES_PART),
 					new ZipPackagePropertiesMarshaller());

@@ -63,7 +63,6 @@ public class XSLFCommentAuthors extends POIXMLDocumentPart {
 //    }
 //    
 //    public CTCommentAuthor getAuthorById(long id) {
-//       // TODO Have a map
 //       for (CTCommentAuthor author : _authors.getCmAuthorList()) {
 //          if (author.getId() == id) {
 //             return author;

@@ -109,7 +109,6 @@ public class XSLFColor {
                 int s = hsl.getSat2();
                 int l = hsl.getLum2();
                 // This conversion is not correct and differs from PowerPoint.
-                // TODO: Revisit and improve.
                 color = Color.getHSBColor(h / 60000f, s / 100000f, l / 100000f);
             } else if (ch instanceof CTPresetColor) {
                 CTPresetColor prst = (CTPresetColor)ch;
@@ -437,7 +436,6 @@ public class XSLFColor {
 
     /**
      * This algorithm returns result different from PowerPoint.
-     * TODO: revisit and improve
      */
     private static Color shade(Color c, int shade) {
         return new Color(
@@ -449,7 +447,6 @@ public class XSLFColor {
 
     /**
      * This algorithm returns result different from PowerPoint.
-     * TODO: revisit and improve
      */
     private static Color tint(Color c, int tint) {
         int r = c.getRed();

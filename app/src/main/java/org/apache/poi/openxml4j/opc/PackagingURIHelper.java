@@ -688,7 +688,6 @@ public final class PackagingURIHelper {
      * @param   value   the string to be parsed into a URI
      * @return  the resolved part name that should be OK to construct a URI
      *
-     * TODO YK: for now this method does only (5). Finish the rest.
      */
     public static URI toURI(String value) throws URISyntaxException {
         //5. Convert all back slashes to forward slashes
