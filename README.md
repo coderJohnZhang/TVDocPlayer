@@ -11,7 +11,7 @@ A document player for android tv to replay PPT/PDF automaticly.
 
 - minSdk 21 && targetSdk 28
 
-- Use POI + PdfRenderer to achieve
+- Use POI + PdfRender to achieve
 
 
 ## About me
@@ -22,7 +22,7 @@ Github: https://github.com/coderJohnZhang
 
 ## License
 
-		Copyright 2022 John Cheung
+		Copyright 2022 Zhang Jun
 
 		Licensed under the Apache License, Version 2.0 (the "License");
 		you may not use this file except in compliance with the License.
